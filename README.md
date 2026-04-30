@@ -4,4 +4,8 @@ JSON file for Hyper-V Quick Create to add installation source for newer versions
 Usage:
 1. RegEdit to Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization
 2. Edit GalleryLocations of type REG_MULTI_SZ
+3. Set its value to the following 2 lines:
+
+https://go.microsoft.com/fwlink/?linkid=851584
+https://raw.githubusercontent.com/ppfoong/HyperVQuickCreate_Ubuntu/refs/heads/main/HyperV_UbuntuGallery.json
 
